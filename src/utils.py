@@ -10,5 +10,5 @@ def multiply(a,b):
 
 def divide(a,b):
     if b == 0:
-        raise ValueError("Denominator cannot be zero.")
+        return "Error: Can not Division by zero"
     return a / b
